@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-container img {
+    width: 100%;
+    max-width: 1080px;
+    height: auto;
+}
+
+/* Estilos para las imágenes con fondo personalizado */
+.img-1, .img-3, .img-5 {
+    background-color: #fff8e9;
+}
+
+.img-2, .img-4 {
+    background-color: #ffe4e9;
+}
+
+.img-2{
+padding-bottom: 20px;
+}
+
+.img-4{
+padding-top: 40px;
+}
+
+.img-5{
+padding-top: 40px;
+padding-bottom: 20px;
+}
